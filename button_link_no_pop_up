@@ -1,21 +1,27 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-    
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+a:link, a:visited {
+  background-color: blue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
 
-    <title> 
-    	Link button
-    </title>
-
+a:hover, a:active {
+  background-color: green;
+}
+</style>
 </head>
+<body>
 
 
-<footer>
 
-  <a href="godbrandgamesdotcom.html"class="w3-button w3-black">Link Button</a>
+<p>A link styled as a button:</p>
+<a href="default.asp" target="_blank">Back to home </a>
 
-</footer>
+</body>
+</html>
