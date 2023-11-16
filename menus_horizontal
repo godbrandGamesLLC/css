@@ -27,11 +27,10 @@ li a:hover {
 }
 </style>
 
-
-</head>
-<body>
-
-<ul>
+ </h3>
+	
+    
+    <ul>
   <li><a class="active" href="#menu">Menu</a></li>
   <li><a href="#order">Order</a></li>
   <li><a href="#careers">Careers</a></li>
@@ -41,6 +40,14 @@ li a:hover {
    <li><a href="#Catering">Catering</a></li>
 </ul>
 
+
+</head>
+
+
+<body text = white bgcolor = green>
+	<hr />
+	<h3 style="font-family:serif"> Company: Godbrand Games L.L.C. </h3>
+ 	<h3 style="font-family:serif"> Coder: Akinwale Owi </h3>
+    <h3 style="font-family:serif"> Program Goal: Showcase that cool horizontal menu in the heading  
 </body>
 </html>
-
