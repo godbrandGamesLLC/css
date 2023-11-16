@@ -33,12 +33,14 @@ li a:hover {
 
 <ul>
   <li><a class="active" href="#menu">Menu</a></li>
-  <li><a href="#Order">Order</a></li>
-  <li><a href="#Careers">Careers</a></li>
-  <li><a href="#Rewards">Rewards</a></li>
-  <li><a href="#Specials">Specials</a></li>
-  
+  <li><a href="#order">Order</a></li>
+  <li><a href="#careers">Careers</a></li>
+  <li><a href="#rewards">Rewards</a></li>
+  <li><a href="#specials">Specials</a></li>
+  <li><a href="#giftCards">Gift Cards</a></li>
+   <li><a href="#Catering">Catering</a></li>
 </ul>
 
 </body>
 </html>
+
