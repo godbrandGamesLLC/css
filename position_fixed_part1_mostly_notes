@@ -12,7 +12,7 @@
 </header>
 
 <style>
-div.fixed {
+div.right_botttom_fixed {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -21,37 +21,39 @@ div.fixed {
   font-size: 30px;
 }
 
-div.leftFixed {
+div.left_bottom_fixed {
   position: fixed;
   bottom: 0;
-  right: 7;
+  right: 1;
   width: 300px;
   border: 4px solid #800080;
   font-size: 30px;
 }
 </style>
-</style>
+
 
 </head>
 
 <body bgcolor = "#BCE954">
 
-<div class="leftFixed">
-This div element is at right:7 bottom:0;
-</div>
 
 
 
 <h3>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled:</h3>
 
 
-<h3>Right and bottom attributes function like baselines, because 'right:0' is all the way to right or to the bottom respectively.
+<h3>Right and bottom attributes function like poles because it only places things in the corners, for example  'right:0' and 'right:1' is absolute left.
 
-<h3>So to go left or up, just enter an integer </h3>
 
-<h3>Cannot go past the container, so 1000 in the body still wont break into the header </h3>
 
-<div class="fixed">
+<h3>Cannot go past the container, so 'right:1000' in the body still wont break into the header </h3>
+
+<div class="left_bottom_fixed">
+This div element is at right:1 bottom:0;
+</div>
+
+
+<div class="right_botttom_fixed">
 This div element is at right:0 bottom:0;
 </div>
 
@@ -62,5 +64,4 @@ This div element is at right:0 bottom:0;
 
 
 </html>
-
 
