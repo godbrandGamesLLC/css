@@ -12,6 +12,26 @@
 </header>
 
 <style>
+
+div.left_top_fixed {
+  position: fixed;
+  bottom: 1;
+  right: 1;
+  width: 300px;
+  border: 4px solid green;
+  font-size: 30px;
+}
+
+
+div.right_top_fixed {
+  position: fixed;
+  bottom: 1;
+  right: 0;
+  width: 300px;
+  border: 4px solid blue;
+  font-size: 30px;
+}
+
 div.right_botttom_fixed {
   position: fixed;
   bottom: 0;
@@ -36,8 +56,13 @@ div.left_bottom_fixed {
 
 <body bgcolor = "#BCE954">
 
+<div class="left_top_fixed">
+This div element is at right:1 bottom:1;
+</div>
 
-
+<div class="right_top_fixed">
+This div element is at right:0 bottom:1;
+</div>
 
 <h3>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled:</h3>
 
@@ -64,4 +89,6 @@ This div element is at right:0 bottom:0;
 
 
 </html>
+
+
 
