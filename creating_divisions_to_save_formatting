@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<header>
+
+	<h3 style="font-family:georgia"> Company: Godbrand Games L.L.C. </h3>
+ 	<h3 style="font-family:georgia"> Coder: Akinwale Owi </h3>
+    <h3 style="font-family:georgia"> Program Goal: Save some formatting by creating divisions in CSS
+	<hr/>
+</header>
+
+<style>
+
+div.first_div {
+
+  font-size: 30px;
+  font-family:georgia;
+  color:white;
+}
+
+
+div.second_div {
+  width: 300px;
+  border: 4px solid white;
+  font-size: 30px;
+}
+
+div.right_botttom_fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 4px solid #FF0000;
+  font-size: 30px;
+}
+
+div.left_bottom_fixed {
+  position: fixed;
+  bottom: 0;
+  right: 1;
+  width: 300px;
+  border: 4px solid #800080;
+  font-size: 30px;
+}
+</style>
+
+
+</head>
+
+<body bgcolor = "blue">
+
+<div class="first_div">
+This is our 1st div
+</div>
+
+<div class="second_div">
+2nd div we created
+</div>
+
+
+
+
+<div class="left_bottom_fixed">
+This div element is at right:1 bottom:0;
+</div>
+
+
+<div class="right_botttom_fixed">
+This div element is at right:0 bottom:0;
+</div>
+
+
+
+
+</body>
+
+
+</html>
+
+
