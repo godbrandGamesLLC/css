@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h2 >
+
+	Company: Godbrand Games L.L.C. </br>
+    Coder: Akinwale Owi </br>
+    Program Purpose: How to change the opacity of a basic CSS button that takes you to Godbrand's Game Github
+</h2>
+
+    <title>Change the opacity of a basic  Basic CSS button that takes you to Godbrand's Game Github
+    </title>
+
+<style>
+a:link, a:visited {
+  opacity: 0.37;
+  background-color: blue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+}
+</style>
+
+<hr/>
+</head>
+
+<body bgcolor = "green">
+
+<h2>A link styled as a button:</h2>
+
+<a href="https://github.com/godbrandGamesLLC" target="_blank">Portal to Godbrand's Games Github!</a>
+
+</body>
+</html>
