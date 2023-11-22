@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h2 >
+     Coder: Akinwale Owi </br>
+    Company: Godbrand Games L.L.C. </br>
+    Program Purpose: One way to make an internet picture your html page's background with the power of CSS.
+</h2>
+
+    <title> One way to make an internet picture your html page's background with the power of CSS.
+    </title>
+
+<style>
+a:link, a:visited {
+  background-color: blue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+}
+</style>
+</head>
+<body>
+
+
+
+<p>A link styled as a button:</p>
+<a href="https://github.com/godbrandGamesLLC" target="_blank">Portal to Godbrand's Games Github!</a>
+
+</body>
+</html>
