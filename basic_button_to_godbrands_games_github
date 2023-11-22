@@ -2,12 +2,13 @@
 <html>
 <head>
 <h2 >
-     Coder: Akinwale Owi </br>
-    Company: Godbrand Games L.L.C. </br>
-    Program Purpose: One way to make an internet picture your html page's background with the power of CSS.
+
+	Company: Godbrand Games L.L.C. </br>
+    Coder: Akinwale Owi </br>
+    Program Purpose: Basic CSS button that takes you to Godbrand's Game Github
 </h2>
 
-    <title> One way to make an internet picture your html page's background with the power of CSS.
+    <title> Basic CSS button that takes you to Godbrand's Game Github
     </title>
 
 <style>
@@ -24,12 +25,14 @@ a:hover, a:active {
   background-color: green;
 }
 </style>
+
+<hr/>
 </head>
+
 <body>
 
+<h2>A link styled as a button:</h2>
 
-
-<p>A link styled as a button:</p>
 <a href="https://github.com/godbrandGamesLLC" target="_blank">Portal to Godbrand's Games Github!</a>
 
 </body>
