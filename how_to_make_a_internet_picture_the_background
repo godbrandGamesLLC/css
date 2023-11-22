@@ -7,20 +7,20 @@
 <h2 >
      Coder: Akinwale Owi </br>
     Company: Godbrand Games L.L.C. </br>
-    Program Purpose: Create a growing list of css fonts we can use 
+    Program Purpose: One way to make an internet picture your html page's background with the power of CSS.
 </h2>
 
-    <title>How to change the font style in on an HTML website.
+    <title> One way to make an internet picture your html page's background with the power of CSS.
     </title>
 
 </head>
 
-<body text = orange>
+<body>
 
 <style>
 body 
 {
-  background-image: url('https://i.ytimg.com/vi/m7nFVlKj1cg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD7dLXLN3YERO765RUU4paRqUkrCg');
+  background-image: url('https://avatars.githubusercontent.com/u/150493451?v=4g');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
