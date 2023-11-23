@@ -85,9 +85,9 @@ body {font-family: Verdana, sans-serif;}
 }
 </style>
 </head>
-<body>
+<body text = "#8B0000">
 
-<h1>Godbrand Games' CSS Calendar</h1>
+<h1 >Godbrand Games' CSS Calendar</h1>
 
 <div class="month">      
   <ul>
