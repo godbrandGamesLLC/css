@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<h2 >
+
+	Company: Godbrand Games L.L.C. </br>
+    Programmer: Akinwale Owi </br>
+    Program Purpose:Make CSS solid borders for different text elements with the help of the border-style Property
+</h2>
+
+<hr/>
+
+<style>
+
+p.solid {border-style: solid;}
+h2.solid {border-style: solid;}
+h3.solid {border-style: solid;}
+
+</style>
+</head>
+<body>
+
+<h2></h2>
+
+
+<p class="solid">This in a solid border.</p>
+<h2 class="solid">As is this h2.</h2>
+<h3 class="solid">And would you believe this h3 too</h3>
+
+</body>
+</html>
+
+
