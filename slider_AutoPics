@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <html>
-
-<header> 
-<title>Menu</title>
-
-
+<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
-.mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
-</style>
-
-<!--Beginning of autoslider style -->
 <style>
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
@@ -79,87 +67,84 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 </style>
-<!--End of autoslider style -->
+</head>
+<body>
+
+<h2>Automatic Slideshow</h2>
+<p>Change image every 2 seconds:</p>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="pic_1of5_slider.jpg" style="width:100%; height:500px ">
+  <div class="text">Pic 1</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="pic_2outof5_slider.jpg" style="width:100%; height:500px">
+  <div class="text">Pic 2</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="pic_3outof5_slider.jpg" style="width:100%; height:500px">
+  <div class="text">Pic 3</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="pic_4outof5_slider.jpg" style="width:100%; height:500px">
+  <div class="text">Pic 4</div>
+</div>
 
 
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="pic_5out5_slider.jpg" style="width:100%; height:500px">
+  <div class="text">Pic 5</div>
+</div>
 
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="pic_6outof6_slider.jpg" style="width:100%; height:500px">
+  <div class="text">Pic 6</div>
+</div>
 
-<!--Beginning of menu style -->
+</div>
+<br>
 
-<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 38px 24px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
-
-
-</style>
-
-
-<!--End of menu style -->
-
-
-	<!--Logo image -->
-	<img src="logo_godbrand_text.jpg" alt="Godbrand Logo" style="float:left;width:200px;height:111px;">
-	
-    <h3>
-
-   <ul>
-  
-<a href="find_location.html"><u>Find Location</u> </a>
-
-  <li><a class="active" href="#menu">Menu</a></li>
-  <li><a href="#order">Order</a></li>
-  <li><a href="#careers">Careers</a></li>
-  <li><a href="#rewards">Rewards</a></li>
-  <li><a href="#specials">Specials</a></li>
-  <li><a href="#giftCards">Gift Cards</a></li>
-   <li><a href="#Catering">Catering</a></li>
-</ul>
-
-   </h3>
-
-
-<!--Beginning of the dotted line style-->
-
-
-<style>
-h2.dotted {border-style: dotted;}
-h2.solid {border-style: solid;}
-</style>
-
-<!--End of the dotted line style-->
-
-
-</header>
-
-
-<!--End of the header-->
-
-<body bgcolor = "red"> 
-
- <img src="careers_3.jpg" alt="Careers" width="100%" height="200">
-
-<h2 class="solid">····································································································································································································································</h2>
-
+</script>
 
 </body>
+</html> 
